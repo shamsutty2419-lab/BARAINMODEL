@@ -1,0 +1,34 @@
+# =========================
+# Core Python ML Stack
+# =========================
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+scikit-learn
+
+# =========================
+# Image Processing
+# =========================
+opencv-python
+Pillow
+
+# =========================
+# Grad-CAM (Explainability)
+# =========================
+grad-cam
+
+# =========================
+# Backend API
+# =========================
+fastapi
+uvicorn
+
+# =========================
+# Report Generation
+# =========================
+fpdf
+
+# =========================
+# Utilities
+# =========================
+python-multipart
