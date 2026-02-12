@@ -114,6 +114,7 @@ for epoch in range(EPOCHS):
 # -----------------------------
 MODEL_PATH = "backend/brain_mri_model.pth"
 torch.save(model.state_dict(), MODEL_PATH)
+#any typse
 
 print("✅ Model training complete")
 print("✅ Model saved at:", MODEL_PATH)
